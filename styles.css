@@ -1,0 +1,166 @@
+body {
+    background-color: #02020C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+/* About me */
+
+.about-me {
+  margin: 50px auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.about-me h1 {
+    font-size: 28px;
+    color: #FAFAFA;
+}
+
+.about-me p {
+    font-size: 14px;
+    color: #FAFAFA;
+    line-height: 24px;
+}
+
+.about-me a {
+  color: #FAFAFACC;
+  text-decoration: underline;
+}
+
+.about-me a:hover {
+  color: #FAFAFA;
+}
+
+.projects {
+    margin: 50px auto;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.projects h1 {
+    font-size: 28px;
+    color: #FAFAFA;
+}
+
+.projects p {
+    font-size: 14px;
+    color: #FAFAFA;
+    line-height: 24px;
+}
+
+.projects a {
+  color: #FAFAFACC;
+  text-decoration: underline;
+}
+
+.projects a:hover {
+  color: #FAFAFA;
+}
+
+/* Project 1 */
+
+.project-1 {
+  margin-bottom: 20px; 
+  margin-top: 40px; 
+}
+
+.project-1 h2 {
+    color: #FAFAFA;
+    font-size: 24px;       
+    margin-bottom: 5px;       
+}
+
+.project-1 .description {
+    font-size: 14px;
+    color: #FAFAFA;  
+    margin: 0 0 5px 0;    
+}
+
+.project-1 .view-code {
+    font-size: 14px;
+    margin: 0;
+}
+
+.project-1 a {
+  color: #FAFAFACC;
+  text-decoration: underline;
+}
+
+.project-1 a:hover {
+    color: #FAFAFA;  
+}
+
+/* Footer */
+
+.portfolio-footer {
+  padding: 20px;
+    margin: 50px auto;
+  max-width: 700px;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #FAFAFACC;
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+.footer-right p {
+  font-size: 14px;
+  text-align: right;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #FAFAFA;
+    line-height: 24px;
+}
+
+.footer-content a {
+  color: #FAFAFACC;
+  text-decoration: underline;
+}
+
+.footer-content a:hover {
+  color: #FAFAFA;
+}
+
+/* Footer Disclaimer */
+
+.footer-disclaimer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #fafafa7e;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.footer-disclaimer .copyright {
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.footer-disclaimer .disclaimer {
+  line-height: 1.4;
+}
